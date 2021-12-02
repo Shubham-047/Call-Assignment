@@ -1,0 +1,64 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: slategrey;
+}
+.head {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+}
+.head :nth-child(2) {
+  margin-left: -300px;
+}
+.horizon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  margin: auto;
+}
+select {
+  width: 50%;
+  font-size: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #aaa;
+  color: #333;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-bottom-color 0.3s ease;
+}
+select:hover {
+  color: #0ebeff;
+  background-color: white;
+  border-bottom-color: #dcdcdc;
+}
+
+#jsonData {
+  padding: 20px;
+  font-size: 20px;
+  color: blue;
+}
+.add {
+  border: dotted skyblue;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.add span {
+  background-color: #aaa;
+}
+.sub {
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.btn {
+  width: 100px;
+  border-radius: 5px;
+  margin-left: -200px;
+}
